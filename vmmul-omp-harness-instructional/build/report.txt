@@ -1,13 +1,10 @@
-/global/homes/c/cbrausen/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:10:23: missed: couldn't vectorize loop
-/global/homes/c/cbrausen/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:13:30: missed: not vectorized: complicated access pattern.
-/global/homes/c/cbrausen/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:12:27: optimized: loop vectorized using 32 byte vectors
-/global/homes/c/cbrausen/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:12:27: optimized: loop vectorized using 16 byte vectors
-/global/homes/c/cbrausen/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: vectorized 1 loops in function.
-/global/homes/c/cbrausen/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:21: note: ***** Analysis failed with vector mode V4DF
-/global/homes/c/cbrausen/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:21: note: ***** The result for vector mode V32QI would be the same
-/global/homes/c/cbrausen/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:21: note: ***** Re-trying analysis with vector mode V16QI
-/global/homes/c/cbrausen/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:21: note: ***** Analysis failed with vector mode V16QI
-/global/homes/c/cbrausen/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:21: note: ***** Re-trying analysis with vector mode V8QI
-/global/homes/c/cbrausen/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:21: note: ***** Analysis failed with vector mode V8QI
-/global/homes/c/cbrausen/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:21: note: ***** Re-trying analysis with vector mode V4QI
-/global/homes/c/cbrausen/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:21: note: ***** Analysis failed with vector mode V4QI
+/home/magic/Desktop/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:10:23: missed: couldn't vectorize loop
+/home/magic/Desktop/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:13:30: missed: not vectorized: complicated access pattern.
+/home/magic/Desktop/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:12:27: optimized: loop vectorized using 16 byte vectors
+/home/magic/Desktop/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: vectorized 1 loops in function.
+/home/magic/Desktop/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:21: note: ***** Analysis failed with vector mode V2DF
+/home/magic/Desktop/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:21: note: ***** The result for vector mode V16QI would be the same
+/home/magic/Desktop/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:21: note: ***** Re-trying analysis with vector mode V8QI
+/home/magic/Desktop/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:21: note: ***** Analysis failed with vector mode V8QI
+/home/magic/Desktop/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:21: note: ***** Re-trying analysis with vector mode V4QI
+/home/magic/Desktop/work3/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:21: note: ***** Analysis failed with vector mode V4QI

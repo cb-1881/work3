@@ -50,6 +50,32 @@ bool check_accuracy(double *A, double *Anot, int nvalues)
 }
 
 
+
+
+
+void benchmarks(int n, double duration) {
+    // capacity for perlmutter
+    const double peak_bandwidth = 204.8e9;
+
+    // MFLOPS calculation
+    double mflops = (2.0 * n * n) / 1e6 / duration; // MFLOPS
+
+   
+    double bytes = n * sizeof(uint64_t);
+
+    
+    double bytes_in_gb = bytes / 1e9;                
+    double achieved_bandwidth = bytes_in_gb / duration; //bandwidth in GB/s
+    double utilization_percentage = (achieved_bandwidth / (peak_bandwidth / 1e9)) * 100;
+
+    
+    std::cout << "MFLOPS: " << mflops << std::endl;
+    //std::cout << "Peak Memory Bandwidth (GB/s): " << peak_bandwidth / 1e9 << " GB/s" << std::endl;
+    //std::cout << "Achieved Bandwidth (GB/s): " << achieved_bandwidth << " GB/s" << std::endl;
+    std::cout << "Memory Bandwidth Utilization: " << utilization_percentage << "%" << std::endl;
+}
+
+
 /* The benchmarking program */
 int main(int argc, char** argv) 
 {
@@ -104,6 +130,7 @@ int main(int argc, char** argv)
         
         std::cout<<"resulting time is "<< result<<std::endl;
 
+        benchmarks(n, result);
         // now invoke the cblas method to compute the matrix-vector multiplye
         reference_dgemv(n, Acopy, Xcopy, Ycopy);
 
