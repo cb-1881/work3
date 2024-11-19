@@ -1,0 +1,26 @@
+Description:	Reference dgemv.
+
+Working on problem size N=1024 
+resulting time is 0.00048
+MFLOPS: 4341.35435
+Memory Bandwidth Utilization: 0.00828%
+Working on problem size N=1024 
+resulting time is 0.00016
+MFLOPS: 12976.38185
+Memory Bandwidth Utilization: 0.02475%
+Working on problem size N=2048 
+resulting time is 0.00051
+MFLOPS: 16446.09042
+Memory Bandwidth Utilization: 0.01568%
+Working on problem size N=4096 
+resulting time is 0.00396
+MFLOPS: 8466.59380
+Memory Bandwidth Utilization: 0.00404%
+Working on problem size N=8192 
+resulting time is 0.01730
+MFLOPS: 7759.76310
+Memory Bandwidth Utilization: 0.00185%
+Working on problem size N=16384 
+resulting time is 0.07145
+MFLOPS: 7513.72827
+Memory Bandwidth Utilization: 0.00090%

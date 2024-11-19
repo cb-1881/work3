@@ -1,0 +1,26 @@
+Description:	Basic implementation of matrix-vector multiply.
+
+Working on problem size N=1024 
+resulting time is 0.00352
+MFLOPS: 595.77691
+Memory Bandwidth Utilization: 0.00114%
+Working on problem size N=1024 
+resulting time is 0.00352
+MFLOPS: 596.08918
+Memory Bandwidth Utilization: 0.00114%
+Working on problem size N=2048 
+resulting time is 0.01420
+MFLOPS: 590.76385
+Memory Bandwidth Utilization: 0.00056%
+Working on problem size N=4096 
+resulting time is 0.05710
+MFLOPS: 587.65815
+Memory Bandwidth Utilization: 0.00028%
+Working on problem size N=8192 
+resulting time is 0.22891
+MFLOPS: 586.34083
+Memory Bandwidth Utilization: 0.00014%
+Working on problem size N=16384 
+resulting time is 0.91772
+MFLOPS: 585.00728
+Memory Bandwidth Utilization: 0.00007%

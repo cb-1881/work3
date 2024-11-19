@@ -1,0 +1,108 @@
+OMP_NUM_THREASDS =  1
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024 
+resulting time is 0.00157
+MFLOPS: 1336.35718
+Memory Bandwidth Utilization: 0.00255%
+Working on problem size N=1024 
+resulting time is 0.00152
+MFLOPS: 1377.25429
+Memory Bandwidth Utilization: 0.00263%
+Working on problem size N=2048 
+resulting time is 0.00491
+MFLOPS: 1707.98400
+Memory Bandwidth Utilization: 0.00163%
+Working on problem size N=4096 
+resulting time is 0.01720
+MFLOPS: 1950.35500
+Memory Bandwidth Utilization: 0.00093%
+Working on problem size N=8192 
+resulting time is 0.06404
+MFLOPS: 2095.79249
+Memory Bandwidth Utilization: 0.00050%
+Working on problem size N=16384 
+resulting time is 0.24518
+MFLOPS: 2189.70233
+Memory Bandwidth Utilization: 0.00026%
+OMP_NUM_THREASDS =  4
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024 
+resulting time is 0.00155
+MFLOPS: 1350.18420
+Memory Bandwidth Utilization: 0.00258%
+Working on problem size N=1024 
+resulting time is 0.00091
+MFLOPS: 2298.89372
+Memory Bandwidth Utilization: 0.00438%
+Working on problem size N=2048 
+resulting time is 0.00214
+MFLOPS: 3912.56599
+Memory Bandwidth Utilization: 0.00373%
+Working on problem size N=4096 
+resulting time is 0.00537
+MFLOPS: 6253.13328
+Memory Bandwidth Utilization: 0.00298%
+Working on problem size N=8192 
+resulting time is 0.01782
+MFLOPS: 7531.17354
+Memory Bandwidth Utilization: 0.00180%
+Working on problem size N=16384 
+resulting time is 0.06494
+MFLOPS: 8267.20754
+Memory Bandwidth Utilization: 0.00099%
+OMP_NUM_THREASDS =  16
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024 
+resulting time is 0.00261
+MFLOPS: 804.47065
+Memory Bandwidth Utilization: 0.00153%
+Working on problem size N=1024 
+resulting time is 0.00038
+MFLOPS: 5493.96808
+Memory Bandwidth Utilization: 0.01048%
+Working on problem size N=2048 
+resulting time is 0.00171
+MFLOPS: 4909.65267
+Memory Bandwidth Utilization: 0.00468%
+Working on problem size N=4096 
+resulting time is 0.00330
+MFLOPS: 10170.00672
+Memory Bandwidth Utilization: 0.00485%
+Working on problem size N=8192 
+resulting time is 0.01300
+MFLOPS: 10326.01176
+Memory Bandwidth Utilization: 0.00246%
+Working on problem size N=16384 
+resulting time is 0.05586
+MFLOPS: 9611.46148
+Memory Bandwidth Utilization: 0.00115%
+OMP_NUM_THREASDS =  64
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024 
+resulting time is 0.00915
+MFLOPS: 229.18291
+Memory Bandwidth Utilization: 0.00044%
+Working on problem size N=1024 
+resulting time is 0.00101
+MFLOPS: 2068.97055
+Memory Bandwidth Utilization: 0.00395%
+Working on problem size N=2048 
+resulting time is 0.00192
+MFLOPS: 4374.30672
+Memory Bandwidth Utilization: 0.00417%
+Working on problem size N=4096 
+resulting time is 0.00378
+MFLOPS: 8883.21191
+Memory Bandwidth Utilization: 0.00424%
+Working on problem size N=8192 
+resulting time is 0.01355
+MFLOPS: 9903.74185
+Memory Bandwidth Utilization: 0.00236%
+Working on problem size N=16384 
+resulting time is 0.05776
+MFLOPS: 9294.21560
+Memory Bandwidth Utilization: 0.00111%

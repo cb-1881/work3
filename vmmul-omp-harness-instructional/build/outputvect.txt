@@ -1,0 +1,26 @@
+Description:	Vectorized implementation of matrix-vector multiply.
+
+Working on problem size N=1024 
+resulting time is 0.00045
+MFLOPS: 4649.04576
+Memory Bandwidth Utilization: 0.00887%
+Working on problem size N=1024 
+resulting time is 0.00023
+MFLOPS: 8949.79601
+Memory Bandwidth Utilization: 0.01707%
+Working on problem size N=2048 
+resulting time is 0.00092
+MFLOPS: 9106.75781
+Memory Bandwidth Utilization: 0.00868%
+Working on problem size N=4096 
+resulting time is 0.00414
+MFLOPS: 8099.56881
+Memory Bandwidth Utilization: 0.00386%
+Working on problem size N=8192 
+resulting time is 0.01718
+MFLOPS: 7813.77495
+Memory Bandwidth Utilization: 0.00186%
+Working on problem size N=16384 
+resulting time is 0.06938
+MFLOPS: 7737.96541
+Memory Bandwidth Utilization: 0.00092%
