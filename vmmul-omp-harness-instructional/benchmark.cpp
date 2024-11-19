@@ -53,19 +53,19 @@ bool check_accuracy(double *A, double *Anot, int nvalues)
 
 
 
-void benchmarks(int n, double duration) {
+void benchmarks(int n, double result) {
     // capacity for perlmutter
     const double peak_bandwidth = 204.8e9;
 
     // MFLOPS calculation
-    double mflops = (2.0 * n * n) / 1e6 / duration; // MFLOPS
+    double mflops = (2.0 * n * n) / 1e6 / result; // MFLOPS
 
    
     double bytes = n * sizeof(uint64_t);
 
     
     double bytes_in_gb = bytes / 1e9;                
-    double achieved_bandwidth = bytes_in_gb / duration; //bandwidth in GB/s
+    double achieved_bandwidth = bytes_in_gb / result; //bandwidth in GB/s
     double utilization_percentage = (achieved_bandwidth / (peak_bandwidth / 1e9)) * 100;
 
     
